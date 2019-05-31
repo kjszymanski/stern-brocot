@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+{{ form(form) }}
+
+
+<ul>
+    {% for result in results %}
+        <li>
+                {% trans with {'%n%': nList[loop.index0], '%value%': result} %}
+                        Given n=%n% the largest value in sequence is %value%
+                {% endtrans %}
+        </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
+
