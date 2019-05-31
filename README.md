@@ -2,9 +2,10 @@
 
 ## Uruchomienie ##
 
-Na początek należy zbudować środowisko, przez uruchomienie polecenia:
+Na początek należy zbudować środowisko, przez uruchomienie poleceń:
 
 ```bash
+cp .env.dist .env
 composer install
 ```
 
