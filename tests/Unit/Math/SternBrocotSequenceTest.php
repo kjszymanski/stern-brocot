@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Math;
+namespace App\Tests\Unit\Math;
 
+use App\Math\SternBrocotSequence;
 use PHPUnit\Framework\TestCase;
 
 class SternBrocotSequenceTest extends TestCase
@@ -71,6 +72,7 @@ class SternBrocotSequenceTest extends TestCase
             [9, 4],
             [10, 4],
             [91, 21],
+            [99998, 2584],
             [99999, 2584],
         ];
     }
